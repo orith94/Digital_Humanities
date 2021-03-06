@@ -9,30 +9,19 @@ Next, by accessing the API of "Wikipedia" and "Wikidata" we added information to
 We then created a local site that enables the user to make queries, based on this database, about israeli movies and people from the industry (e.g. collaborations between people - including actors, directors, producers etc.).
 Finally, we enabled more complexed queries based on information from wikidata.
 
-We extracted the data for the social network from [cinemaofisrael site](https://www.cinemaofisrael.co.il/%d7%aa%d7%95%d7%9b%d7%9f-%d7%a2%d7%a0%d7%99%d7%99%d7%a0%d7%99%d7%9d/) by a web crawler writen in JavaScript.
-??????The data has expanded by Wikidata in order to create a wide and comprehensive MongoDB database (database details below). <br />
-Web crawler files:
-+ [Movies scraper](https://github.com/shaybensimon/tdh192/blob/master/movie-page-scraper.js)
-+ [Actors scraper](https://github.com/shaybensimon/tdh192/blob/master/actors-scraper.js)
-+ [Wikidata scraper](https://github.com/shaybensimon/tdh192/blob/master/wikidata-handler.js)
-
-Crawlers and Database integation:
-+ [JS index file](https://github.com/shaybensimon/tdh192/blob/master/index.js)
-?????
-
 
 ## The database
-[cinema-of-israel-db](https://github.com/shaybensimon/tdh192/tree/master/db-backup/cinema-of-israel-db) with MongoDB.
+[cinema-of-israel-db](https://github.com/orith94/Digital_Humanities/tree/master/cinema-of-israel-db) with MongoDB.
 Includes two collections:
 + movies: 1021 movie records. You can find information (Hebrew) like: cast, characters, brief, years etc.
 + persons: 16343 cinema entity records. You can find information like: gender, years, acting career etc.
 
-To restore [DB](https://github.com/shaybensimon/tdh192/tree/master/db-backup/cinema-of-israel-db): install mongodb server and then from project directory (tdh192) type in console 'mongorestore --db cinema-of-israel-db ./db-backup/cinema-of-israel-db'.
+To restore [DB](https://github.com/orith94/Digital_Humanities/tree/master/cinema-of-israel-db): install mongodb server and then from project directory, type in console 'mongorestore --db cinema-of-israel-db ./cinema-of-israel-db'.
 
 
 ## Queries and outputs
 
-When running the program a local site will appear. At the top right part of the screen you will be able to choose out of 2 options:
+When running the program a local site will appear. At the top right part of the screen you will be able to choose out of 3 options:
 
 1) Multiple Query
 In this option you can get all movies by a certain actor, director, producer or screenwriter, as well as all movies in a certain year.
@@ -66,4 +55,9 @@ submit
 
 In this case the output will be a list of all actors that played in "אבא גנוב".
 
-??????????Queries from [this file](https://github.com/shaybensimon/tdh192/blob/master/network%20graph.py).?????????????
+3) WikiData Queries
+In this option you can get all israeli artists - actors, directors or producer by their hometown or/and year of birth directly from wikidata.
+This is a convenient interface to make cuts on complex queries in Wikidata.
+After pressing submit a JSON file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
+ 
+[Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/examples)
