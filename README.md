@@ -28,28 +28,18 @@ In this option you can get all movies by a certain actor, director, producer or 
 You can also get collaborations between people by pressing "more query". When done press "submit".
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-      Example: <br/>
-      **קטגוריה**: שם שחקן - הכנס שם שחקן
-      <br/>
-      ערך: יהודה ברקן
-      <br/>
-      more query
-      <br/>
-      <br/>
-
-      קטגוריה: שנה - הכנס שנה
-      <br/>
-      ערך: 1968
-     <br/>
-     more query
-      <br/>
-      <br/>
-     
-     קטגוריה: שם במאי - הכנס שם במאי
-      <br/>
-      ערך: יוסף שלחין
-      <br/>
-      submit
+                  Example: 
+                  קטגוריה: שם שחקן - הכנס שם שחקן
+                  ערך: יהודה ברקן
+                   **more Query**
+                 
+                  קטגוריה: שנה - הכנס שנה
+                  ערך: 1968
+                 **more query**
+                 
+                 קטגוריה: שם במאי - הכנס שם במאי
+                  ערך: יוסף שלחין
+                  **Submit**
 
 In this case the output will be all movies from 1968 with Yehuda Barkan as an actor and Yosef Shlachin as director.
 (The category "שם אמן - הכנס שם אמן" will return all movies of an artist regardless of his role there - actor, director, producer or screenwriter).
@@ -59,13 +49,10 @@ In this case the output will be all movies from 1968 with Yehuda Barkan as an ac
 In this option you can choose to get information about a movie or an actor, or all actors playing in a specific movie.
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-            Example: <br/>
+            Example: 
             **קטגוריה**: שחקנים לפי סרט - הכנס שם סרט
-            <br/>
-           
            ערך: אבא גנוב
-            <br/>
-            submit
+            **Submit**
             
 
 In this case the output will be a list of all actors that played in "אבא גנוב".
@@ -91,4 +78,4 @@ see output - [json file](https://github.com/orith94/Digital_Humanities/blob/mast
           
             
 
-For output examples click here:[Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/Examples)
+For more output examples click here: [Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/Examples)
