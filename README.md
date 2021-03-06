@@ -75,6 +75,20 @@ see [json](https://github.com/orith94/Digital_Humanities/blob/master/Examples/Al
 In this option you can get all israeli artists - actors, directors or producer by their hometown or/and year of birth directly from wikidata.
 This is a convenient interface to make cuts on complex queries in Wikidata.
 After pressing submit a JSON file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
- 
+
+            Example: 
+            קטגוריה ראשית: שחקנים ישראליים
+            קטגוריה: שנולדו בעיר
+            ערך: נתניה
+            **more Query**
+            
+             קטגוריה ראשית: שחקנים ישראליים
+            קטגוריה: שנולדו בשנה
+            ערך: 1995
+            **Submit**
+            
+see output - [json file](https://github.com/orith94/Digital_Humanities/blob/master/Examples/All_ActorsThat_Was_Born_In%D7%A0%D7%AA%D7%A0%D7%99%D7%94All_ActorsThat_Was_Born_at1995.json).            
+          
+            
 
 For output examples click here:[Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/Examples)
