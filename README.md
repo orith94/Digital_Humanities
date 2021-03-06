@@ -61,3 +61,4 @@ This is a convenient interface to make cuts on complex queries in Wikidata.
 After pressing submit a JSON file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
  
 
+For output examples click here:[Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/Examples)
