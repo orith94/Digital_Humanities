@@ -49,10 +49,10 @@ In this case the output will be all movies from 1968 with Yehuda Barkan as an ac
 In this option you can choose to get information about a movie or an actor, or all actors playing in a specific movie.
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-      Example: 
-            קטגוריה: שחקנים לפי סרט - הכנס שם סרט
-            ערך: אבא גנוב  
-            **Submit**
+                  Example: 
+                        קטגוריה: שחקנים לפי סרט - הכנס שם סרט
+                        ערך: אבא גנוב  
+                        **Submit**
             
 
 In this case the output will be a list of all actors that played in "אבא גנוב".
