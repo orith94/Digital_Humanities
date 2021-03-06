@@ -28,7 +28,7 @@ In this option you can get all movies by a certain actor, director, producer or 
 You can also get collaborations between people by pressing "more query". When done press "submit".
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-                  Example: 
+            Example: 
                   קטגוריה: שם שחקן - הכנס שם שחקן
                   ערך: יהודה ברקן
                    **more Query**
@@ -49,9 +49,9 @@ In this case the output will be all movies from 1968 with Yehuda Barkan as an ac
 In this option you can choose to get information about a movie or an actor, or all actors playing in a specific movie.
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-            Example: 
-            **קטגוריה**: שחקנים לפי סרט - הכנס שם סרט
-           ערך: אבא גנוב
+      Example: 
+            קטגוריה: שחקנים לפי סרט - הכנס שם סרט
+            ערך: אבא גנוב  
             **Submit**
             
 
@@ -63,7 +63,7 @@ In this option you can get all israeli artists - actors, directors or producer b
 This is a convenient interface to make cuts on complex queries in Wikidata.
 After pressing submit a JSON file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-            Example: 
+       Example: 
             קטגוריה ראשית: שחקנים ישראליים
             קטגוריה: שנולדו בעיר
             ערך: נתניה
