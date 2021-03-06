@@ -28,7 +28,7 @@ In this option you can get all movies by a certain actor, director, producer or 
 You can also get collaborations between people by pressing "more query". When done press "submit".
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-      Example: 
+      Example: <br/>
       קטגוריה: שם שחקן - הכנס שם שחקן
       ערך: יהודה ברקן
       more query
