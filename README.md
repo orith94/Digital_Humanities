@@ -28,21 +28,22 @@ In this option you can get all movies by a certain actor, director, producer or 
 You can also get collaborations between people by pressing "more query". When done press "submit".
 After pressing submit a JSON file and a csv file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
 
-Example: 
-קטגוריה: שם שחקן - הכנס שם שחקן
-ערך: יהודה ברקן
-more query
+      Example: 
+      קטגוריה: שם שחקן - הכנס שם שחקן
+      ערך: יהודה ברקן
+      more query
 
-קטגוריה: שנה - הכנס שנה
-ערך: 1968
-more query
+      קטגוריה: שנה - הכנס שנה
+      ערך: 1968
+      more query
 
-קטגוריה: שם במאי - הכנס שם במאי
-ערך: יוסף שלחין
-submit
+      קטגוריה: שם במאי - הכנס שם במאי
+      ערך: יוסף שלחין
+      submit
 
 In this case the output will be all movies from 1968 with Yehuda Barkan as an actor and Yosef Shlachin as director.
 (The category "שם אמן - הכנס שם אמן" will return all movies of an artist regardless of his role there - actor, director, producer or screenwriter)
+see [json file](https://github.com/orith94/Digital_Humanities/blob/master/Examples/All_Movies_With_The_Actor_%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%91%D7%A8%D7%A7%D7%9FAll_Movies_In_Year_1968All_Movies_With_The_Director_%D7%99%D7%95%D7%A1%D7%A3%20%D7%A9%D7%9C%D7%97%D7%99%D7%9F.json) or [Csv file](https://github.com/orith94/Digital_Humanities/blob/master/Examples/All_Movies_With_The_Actor_%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%91%D7%A8%D7%A7%D7%9FAll_Movies_In_Year_1968All_Movies_With_The_Director_%D7%99%D7%95%D7%A1%D7%A3%20%D7%A9%D7%9C%D7%97%D7%99%D7%9F.csv)
 
 2) Query
 In this option you can choose to get information about a movie or an actor, or all actors playing in a specific movie.
