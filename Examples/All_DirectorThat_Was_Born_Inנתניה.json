@@ -1,0 +1,108 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemDescription", "birthyear", "deathyear", "genderLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22303992"
+      },
+      "itemLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עילית זקצר"
+      },
+      "itemDescription" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "במאית קולנוע ישראלית"
+      },
+      "birthyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1980"
+      },
+      "genderLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נקבה"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1385643"
+      },
+      "itemLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איל חלפון"
+      },
+      "birthyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1958"
+      },
+      "genderLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "זכר"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7059703"
+      },
+      "itemLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "ערה לפיד"
+      },
+      "birthyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1948"
+      },
+      "genderLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נקבה"
+      },
+      "deathyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "2018"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2909679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "יהודה בארקן"
+      },
+      "itemDescription" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שחקן, מפיק, במאי קולנוע ותסריטאי ישראלי"
+      },
+      "birthyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1945"
+      },
+      "genderLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "זכר"
+      },
+      "deathyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "2020"
+      }
+    } ]
+  }
+}
