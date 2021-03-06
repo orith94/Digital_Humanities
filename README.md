@@ -30,15 +30,25 @@ After pressing submit a JSON file and a csv file will be downloaded to your comp
 
       Example: <br/>
       קטגוריה: שם שחקן - הכנס שם שחקן
+      <br/>
       ערך: יהודה ברקן
+      <br/>
       more query
+      <br/>
+      <br/>
 
       קטגוריה: שנה - הכנס שנה
+      <br/>
       ערך: 1968
-      more query
-
-      קטגוריה: שם במאי - הכנס שם במאי
+     <br/>
+     more query
+      <br/>
+      <br/>
+     
+     קטגוריה: שם במאי - הכנס שם במאי
+      <br/>
       ערך: יוסף שלחין
+      <br/>
       submit
 
 In this case the output will be all movies from 1968 with Yehuda Barkan as an actor and Yosef Shlachin as director.
