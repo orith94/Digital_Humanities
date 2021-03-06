@@ -60,4 +60,4 @@ In this option you can get all israeli artists - actors, directors or producer b
 This is a convenient interface to make cuts on complex queries in Wikidata.
 After pressing submit a JSON file will be downloaded to your computer at directory C:\OutputForIsraeliMoviesLibrary.
  
-[Output Examples](https://github.com/orith94/Digital_Humanities/tree/master/examples)
+
