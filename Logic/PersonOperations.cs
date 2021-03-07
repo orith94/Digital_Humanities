@@ -185,11 +185,6 @@ namespace WebAppMovies.Logic
                 throw;
             }
 
-            //foreach (var p in all_persons)
-            //{
-            //    if (p != null)
-            //        all_names.Add(p.Name);
-            //}
             return all_names;
         }
 
