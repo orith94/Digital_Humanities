@@ -70,11 +70,11 @@ After pressing submit a JSON file will be downloaded to your computer at directo
             **more Query**
             
              קטגוריה ראשית: שחקנים ישראליים
-            קטגוריה: שנולדו בשנה
+            קטגוריה: שנולדו לאחר שנת
             ערך: 1995
             **Submit**
             
-see output - [json file](https://github.com/orith94/Digital_Humanities/blob/master/Examples/All_ActorsThat_Was_Born_In%D7%A0%D7%AA%D7%A0%D7%99%D7%94All_ActorsThat_Was_Born_at1995.json).            
+see output - [json file](https://github.com/orith94/Digital_Humanities/blob/master/Examples/All_ActorsThat_Was_Born_In%D7%A0%D7%AA%D7%A0%D7%99%D7%94All_ActorsThat_Was_Born_after1995.json).            
           
             
 
