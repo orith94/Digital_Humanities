@@ -167,9 +167,15 @@ namespace WebAppMovies.Logic
 
         public Person GetPerson(string name)
         {
-            var result = Collection.Aggregate().Match(c => c.Name == name).Single();
-
-            return result;
+            try
+            {
+                var result = Collection.Aggregate().Match(c => c.Name == name).Single();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         public List<string> Get_all_persons_without_biography()

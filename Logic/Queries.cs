@@ -191,7 +191,7 @@ namespace WebAppMovies.Logic
                             }
                             else
                             {
-                                file_name = "NoMatchingMovies";
+                                file_name = "No_Matching_Result_For_Movie_" + q.Value;
                             }
                             moviesOperations.Build_act_and_char_field(moviesOutput);
                             Converts.ConvertDataToCsv(moviesOutput, outputDirPath + "\\" + file_name + ".csv");
@@ -202,13 +202,19 @@ namespace WebAppMovies.Logic
 
                         case "שחקנים לפי סרט - הכנס שם סרט":
                             var actors = moviesOperations.Actors_in_a_movie(q.Value);
-
-                            foreach (var act in actors)
+                            if (actors != null)
                             {
-                                personsOutput.Add(personOperations.GetPerson(act.name));
-                            }
+                                foreach (var act in actors)
+                                {
+                                    personsOutput.Add(personOperations.GetPerson(act.name));
+                                }
 
-                            file_name = "All_The_Actors_In_The_Movie_" + q.Value;
+                                file_name = "All_The_Actors_In_The_Movie_" + q.Value;
+                            }
+                            else
+                            {
+                                file_name = "No_Matching_Actors_With_The_Movie_" + q.Value;
+                            }
                             Converts.ConvertDataToCsv(personsOutput, outputDirPath + "\\" + file_name + ".csv");
                             Converts.ConvertDataToJson(personsOutput, outputDirPath + "\\" + file_name + ".json");
                             file_name = "";
@@ -216,10 +222,17 @@ namespace WebAppMovies.Logic
                             break;
 
                         case "מידע על אמן - הכנס שם אמן":
-                            var artist = personOperations.GetPerson(q.Value);
-                            personsOutput.Add(artist);
 
-                            file_name = "Info_About_The_Artist_" + q.Value;
+                            var artist = personOperations.GetPerson(q.Value);
+                            if (artist != null)
+                            {
+                                personsOutput.Add(artist);
+                                file_name = "Info_About_The_Artist_" + q.Value;
+                            }
+                            else
+                            {
+                                file_name = "No_Matching_Movies_With_The_Artist_" + q.Value;
+                            }
                             Converts.ConvertDataToCsv(personsOutput, outputDirPath + "\\" + file_name + ".csv");
                             Converts.ConvertDataToJson(personsOutput, outputDirPath + "\\" + file_name + ".json");
                             file_name = "";
