@@ -282,7 +282,7 @@ namespace WebAppMovies.Logic
             }
 
             var x = complexQueries(allTheQueries, filter);
-            Converts.ConvertDataToJson(x, outputDirPath + "\\" + file_name[0] + ".json");
+            Converts.ConvertDataToJson(x, outputDirPath + "\\" + file_name[0] + "WikiData_Format" + ".json");
         }
 
         public List<movie> Get_all_movies_by_person(string name)
