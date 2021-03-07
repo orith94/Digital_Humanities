@@ -1,0 +1,33 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemDescription", "birthyear", "deathyear", "genderLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104093928"
+      },
+      "itemLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גל גברעם"
+      },
+      "itemDescription" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אושיית אינטרנט וטלוויזיה ישראלית"
+      },
+      "birthyear" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "2001"
+      },
+      "genderLabel" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "נקבה"
+      }
+    } ]
+  }
+}
