@@ -118,7 +118,7 @@ namespace WebAppMovies.Logic
                             }
                             else
                             {
-                                Get_all_movies_by_person(q.Value);
+                                moviesOutput = Get_all_movies_by_person(q.Value);
                                 file_name = "All_Movies_With_The_Person_" + q.Value;
                             }
                             iter_counter++;
