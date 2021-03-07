@@ -289,22 +289,31 @@ namespace WebAppMovies.Logic
         {
             List<movie> MovieList = moviesOperations.MovieObject_to_movie(personOperations.GetAllMoviesByActor(name));
             List<movie> tmp = moviesOperations.Names_to_movies(personOperations.GetAllMoviesByDirector(name));
-            foreach (movie m in tmp)
+            if (tmp != null)
             {
-                if (!MovieList.Contains(m))
-                    MovieList.Add(m);
+                foreach (movie m in tmp)
+                {
+                    if (!MovieList.Contains(m))
+                        MovieList.Add(m);
+                }
             }
             tmp = moviesOperations.Names_to_movies(personOperations.GetAllMoviesByProducer(name));
-            foreach (movie m in tmp)
+            if (tmp != null)
             {
-                if (!MovieList.Contains(m))
-                    MovieList.Add(m);
+                foreach (movie m in tmp)
+                {
+                    if (!MovieList.Contains(m))
+                        MovieList.Add(m);
+                }
             }
             tmp = moviesOperations.Names_to_movies(personOperations.GetAllMoviesByScreenwriter(name));
-            foreach (movie m in tmp)
+            if (tmp != null)
             {
-                if (!MovieList.Contains(m))
-                    MovieList.Add(m);
+                foreach (movie m in tmp)
+                {
+                    if (!MovieList.Contains(m))
+                        MovieList.Add(m);
+                }
             }
             return MovieList;
         }
