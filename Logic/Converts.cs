@@ -78,7 +78,7 @@ namespace WebAppMovies.Logic
                     csvWriter.WriteField(project.Name);
                     //csvWriter.WriteField(project.Sex);
                     //csvWriter.WriteField(project.Acting);
-                    csvWriter.WriteField(project.Biography);
+                    csvWriter.WriteField("ויקיפדיה - " + project.Biography);
                     csvWriter.WriteField(project.DateOfBirth);
                     csvWriter.WriteField(project.WikiDataUrl);
                     csvWriter.WriteField(project.wdId);
