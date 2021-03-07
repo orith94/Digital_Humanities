@@ -132,13 +132,16 @@ namespace WebAppMovies.Logic
         {
             List<Actor> output = new List<Actor>();
             movie CurrMovie = GetMovieByName(name);
-            Actor[] actors = CurrMovie.actors;
-            if (actors != null)
+            if (CurrMovie != null)
             {
-                foreach (Actor a in actors)
+                Actor[] actors = CurrMovie.actors;
+                if (actors != null)
                 {
-                    if (a != null)
-                        output.Add(a);
+                    foreach (Actor a in actors)
+                    {
+                        if (a != null)
+                            output.Add(a);
+                    }
                 }
             }
             return output;
