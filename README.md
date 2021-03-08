@@ -1,5 +1,5 @@
 # Digital_Humanities
-# Project: Israeli cinema industry social network
+# Project: Israeli cinema industry social network - ASP.NET
 
 ## Description
 
